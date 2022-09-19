@@ -58,24 +58,21 @@ header{
  /* Section */
 .row{
     display: flex;
-    flex-direction: ;
+   
     justify-content: space-between;
     width: 70%;
     margin: auto;
 }
 .reverse{
     flex-direction: row-reverse;
-    
-
 }
 
 section{
     background-color: rgb(137, 44, 44);
 
 }
-.section-reverse{
+.section-reverse, .light-bk{
     background-color: burlywood;
-
 }
 
  section .img{
@@ -90,7 +87,7 @@ section{
  }
  /*______________ 4 section__________ */
  .text-comunity{
-    background-color: greenyellow;
+    background-color:rgb(19, 252, 101) ;
     height: 400px;
 
 
@@ -102,7 +99,33 @@ section{
  }
 
  .load{
-    background-color: rgb(19, 252, 101);
+    background-color: greenyellow;
     height: 400px;
+ }
+ .light-bk{
+    padding-top: 70px;
+ }
 
+ /* ___sezione 5___ */
+
+ columns-final{
+    flex-direction: row-reverse;
+ }
+
+ .col-5{
+    width: 600px;
+    height: 900px;
+ }
+
+ .black{
+    background-color: black;
+    flex-grow: 1;
+ }
+ .brown{
+    background-color: brown;
+    flex-grow: 0;
+ }
+ .red{
+    background-color: red;
+    flex-grow: 0;
  }
