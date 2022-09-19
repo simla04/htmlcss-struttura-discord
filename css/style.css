@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+header{
+    background-color: blueviolet;
+}
+/*________ NAVBAR________________ */
+.container{
+    background-color: violet;
+    width: 70%;
+    margin: auto;
+}
+ header .navbar{
+    background-color: lightcoral;
+ }
+ .navbar{
+    justify-content: space-between;
+ }
+ .navbar .logo{
+    background-color: blue;
+ }
+ /* ul */
+ .navbar .nav{  
+ }
+ .nav{
+    background-color: blue;
+    width: 50%;
+    margin: 0;
+ }
+ .nav li{
+    display: inline;
+    list-style: none;
+    color: aliceblue;
+    /* float: right; */
+ }
+ .navbar .accedi{
+    background-color: blue;
+ }
+ 
+
+ /* ___TEXT SUB NAVBAR___________ */
+ header .home{
+    background-color: aqua;
+ }
+
+ /* Home header */
+ .container h1, .container.home{
+    text-align: center;
+ }
+ /* Section */
+
