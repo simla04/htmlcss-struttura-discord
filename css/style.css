@@ -56,4 +56,53 @@ header{
     text-align: center;
  }
  /* Section */
+.row{
+    display: flex;
+    flex-direction: ;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.reverse{
+    flex-direction: row-reverse;
+    
 
+}
+
+section{
+    background-color: rgb(137, 44, 44);
+
+}
+.section-reverse{
+    background-color: burlywood;
+
+}
+
+ section .img{
+    background-color: greenyellow;
+    width: 48%;
+    height: 400px;
+ }
+ section .text{
+    background-color: green;
+    width: 48%;
+    height: 400px;
+ }
+ /*______________ 4 section__________ */
+ .text-comunity{
+    background-color: greenyellow;
+    height: 400px;
+
+
+ }
+ .img-video{
+    background-color: green;
+    height: 400px;
+
+ }
+
+ .load{
+    background-color: rgb(19, 252, 101);
+    height: 400px;
+
+ }
